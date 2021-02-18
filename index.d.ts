@@ -48,7 +48,7 @@ export interface AxiosRequestConfig {
   transformRequest?: AxiosTransformer | AxiosTransformer[];
   transformResponse?: AxiosTransformer | AxiosTransformer[];
   headers?: any;
-  params?: any;
+  params?: any; // get 请求可以自动拼接参数
   paramsSerializer?: (params: any) => string;
   data?: any;
   timeout?: number;
